@@ -1,0 +1,2 @@
+ setuptools
+ sphinx==1.8.5
