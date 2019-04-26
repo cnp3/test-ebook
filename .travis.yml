@@ -1,4 +1,6 @@
 before_install:
+ - sudo apt-get install texlive-font-utils
+ - sudo apt-get install texlive-latex-extra
 install: "pip3 install -q -r .travis-requirements.txt"
 language: python
 python:
