@@ -4,6 +4,7 @@ before_install:
  - sudo apt-get install texlive-extra-utils
  - sudo apt-get install dvipng
  - sudo apt-get install inkscape
+ - sudo apt-get install imagemagick
 install: "pip3 install -q -r .travis-requirements.txt"
 language: python
 python:
