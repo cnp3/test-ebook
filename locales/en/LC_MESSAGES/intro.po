@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Olivier Bonaventure
+# This file is distributed under the same license as the Test ebook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Test ebook \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-27 12:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../intro.rst:2
+msgid "Introduction"
+msgstr ""
+
+#: ../../intro.rst:4
+msgid ""
+"This is a simple test file that includes all the features of sphinx and "
+"its extensions that we plan to use for the third edition of the `Computer"
+" Networking: Principles, Protocols and Pratice <https://www.computer-"
+"networking.info>`_ ebook. It is designed to test the ability to "
+"automatically build the ebook by using `travis <https://travis-ci.org>`_ "
+"and translate it by using `transifex <https://www.transifex.com/>`_."
+msgstr ""
+
+#: ../../intro.rst:9
+msgid ""
+"Each of the files contains a different feature of `sphinx <http://www"
+".sphinx-doc.org>`_."
+msgstr ""
+
+#: ../../intro.rst:11
+msgid ""
+"This document is divided in sections. We apply the `Python’s Style Guide "
+"for documenting <https://docs.python.org/devguide/documenting.html#style-"
+"guide>`_, i.e. :"
+msgstr ""
+
+#: ../../intro.rst:13
+msgid "# with overline, for parts"
+msgstr ""
+
+#: ../../intro.rst:14
+msgid "with overline, for chapters"
+msgstr ""
+
+#: ../../intro.rst:15
+msgid "=, for sections"
+msgstr ""
+
+#: ../../intro.rst:16
+msgid ", for subsections"
+msgstr ""
+
+#: ../../intro.rst:17
+msgid "^, for subsubsections"
+msgstr ""
+
+#: ../../intro.rst:18
+msgid "\", for paragraphs"
+msgstr ""
+
