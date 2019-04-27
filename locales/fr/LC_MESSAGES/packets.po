@@ -2,20 +2,25 @@
 # Copyright (C) 2019, Olivier Bonaventure
 # This file is distributed under the same license as the Test ebook package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
+# 
+# Translators:
+# Olivier Bonaventure <bonaventure@acm.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Test ebook \n"
+"Project-Id-Version: Test ebook\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-27 12:10+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-27 13:16+0000\n"
+"Last-Translator: Olivier Bonaventure <bonaventure@acm.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/cnp3/teams/98144/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../packets.rst:2
 msgid "Figures showing packets"
@@ -23,26 +28,24 @@ msgstr "Des figures représentant des paquets"
 
 #: ../../packets.rst:4
 msgid ""
-"We often need to include figures that represent the format of packets. "
-"These figures usually come from the IETF documents. For example, here is "
-"the TCP header. This header can be included as raw text"
+"We often need to include figures that represent the format of packets. These"
+" figures usually come from the IETF documents. For example, here is the TCP "
+"header. This header can be included as raw text"
 msgstr ""
-"Il est souvent nécessaire d'inclure des figures qui représentent le format de paquets. "
-"Ces figures proviennent généralement des documents de l'IETF. Par exemple, voici "
-"l'entête TCP. Cette entête peut être incluse comme du texte brut "
-
+"Il est souvent nécessaire d'inclure des figures qui représentent le format "
+"de paquets. Ces figures proviennent généralement des documents de l'IETF. "
+"Par exemple, voici l'entête TCP. Cette entête peut être incluse comme du "
+"texte brut "
 
 #: ../../packets.rst:27
 msgid ""
-"However, in practice we prefer to include the packet header in SVG format"
-" or other graphical formats. The TCP header is typically included as a "
-"figure."
+"However, in practice we prefer to include the packet header in SVG format or"
+" other graphical formats. The TCP header is typically included as a figure."
 msgstr ""
-"Cependant, en pratique nous préférons inclure l'entête d'un paquet en format SVG"
-" ou en utilisant un autre format graphique. L'entête TCP est généralement incluse sous la forme d'une "
-"figure."
+"Cependant, en pratique nous préférons inclure l'entête d'un paquet en format"
+" SVG ou en utilisant un autre format graphique. L'entête TCP est "
+"généralement incluse sous la forme d'une figure."
 
 #: ../../packets.rst:34
 msgid "TCP header format"
 msgstr "Format de l'entête TCP"
-
