@@ -1,2 +1,4 @@
  setuptools
  sphinx==1.8.5
+ sphinx-intl
+ transifex-client
