@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../index.rst:7
 msgid "Welcome to Test ebook's documentation!"
-msgstr ""
+msgstr "Bienvenue dans le document Test ebook"
 
 #: ../../index.rst:9
 msgid "Contents:"
@@ -27,17 +27,17 @@ msgstr ""
 
 #: ../../index.rst:18
 msgid "Indices and tables"
-msgstr ""
+msgstr "Indices et tables"
 
 #: ../../index.rst:20
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 #: ../../index.rst:21
 msgid ":ref:`modindex`"
-msgstr ""
+msgstr ":ref:`modindex`"
 
 #: ../../index.rst:22
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"
 

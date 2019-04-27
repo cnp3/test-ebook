@@ -13,4 +13,4 @@ cd ..
 # English version
 sphinx-build -n -WNT --keep-going -b html . /tmp
 # French version
-SPHINXOPTS="-D language='fr'" sphinx-build -n -WNT --keep-going -b html . /tmp
+sphinx-build -D language='fr' -n -WNT --keep-going -b html . /tmp

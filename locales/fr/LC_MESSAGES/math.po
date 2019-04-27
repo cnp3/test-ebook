@@ -19,21 +19,26 @@ msgstr ""
 
 #: ../../math.rst:2
 msgid "Mathematical formulas"
-msgstr ""
+msgstr "Formules mathématiques"
 
 #: ../../math.rst:4
 msgid ""
 "Mathematical formulas appear sometimes in the ebook. Hereare two formulas"
 " from the TCP chapter:"
 msgstr ""
+"Certaines formules mathématiques apparaissent "
+"dans l'ebook. En voici deux exemples"
+" provenant du chapitre TCP: "
 
 #: ../../math.rst:6
 msgid ":math:`W=\\sqrt{\\frac{8}{3 \\times p}}=\\frac{k}{\\sqrt{p}}`"
-msgstr ""
+msgstr ":math:`W=\\sqrt{\\frac{8}{3 \\times p}}=\\frac{k}{\\sqrt{p}}`"
 
 #: ../../math.rst:8
 msgid ""
 ":math:`Throughput<min(\\frac{window}{rtt},\\frac{k \\times MSS}{rtt "
 "\\times \\sqrt{p}})`"
 msgstr ""
+"":math:`D\acute{e}bit<min(\\frac{window}{rtt},\\frac{k \\times "
+"MSS}{rtt \\times \\sqrt{p}})`"
 

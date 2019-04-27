@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../packets.rst:2
 msgid "Figures showing packets"
-msgstr ""
+msgstr "Des figures représentant des paquets"
 
 #: ../../packets.rst:4
 msgid ""
@@ -27,6 +27,10 @@ msgid ""
 "These figures usually come from the IETF documents. For example, here is "
 "the TCP header. This header can be included as raw text"
 msgstr ""
+"Il est souvent nécessaire d'inclure des figures qui représentent le format de paquets. "
+"Ces figures proviennent généralement des documents de l'IETF. Par exemple, voici "
+"l'entête TCP. Cette entête peut être incluse comme du texte brut "
+
 
 #: ../../packets.rst:27
 msgid ""
@@ -34,8 +38,11 @@ msgid ""
 " or other graphical formats. The TCP header is typically included as a "
 "figure."
 msgstr ""
+"Cependant, en pratique nous préférons inclure l'entête d'un paquet en format SVG"
+" ou en utilisant un autre format graphique. L'entête TCP est généralement incluse sous la forme d'une "
+"figure."
 
 #: ../../packets.rst:34
 msgid "TCP header format"
-msgstr ""
+msgstr "Format de l'entête TCP"
 
