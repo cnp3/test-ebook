@@ -65,8 +65,8 @@ language = 'en'
 
 
 # Locale_dirs
-local_dirs=['locale']
-
+local_dirs=['locales']
+gettext_compact=False
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
