@@ -12,7 +12,7 @@ Welcome to Test ebook's documentation!
 
    intro.rst	     
    math.rst
-   
+   packets.rst	     
 
 Indices and tables
 ==================
