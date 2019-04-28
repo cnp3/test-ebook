@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Olivier Bonaventure
+# This file is distributed under the same license as the Test ebook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Liangcheng Yu <liangcheng.yu46@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Test ebook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-27 12:10+0000\n"
+"PO-Revision-Date: 2019-04-27 13:16+0000\n"
+"Last-Translator: Liangcheng Yu <liangcheng.yu46@gmail.com>, 2019\n"
+"Language-Team: Chinese (https://www.transifex.com/cnp3/teams/98144/zh/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../packets.rst:2
+msgid "Figures showing packets"
+msgstr "展示报文的图片"
+
+#: ../../packets.rst:4
+msgid ""
+"We often need to include figures that represent the format of packets. These"
+" figures usually come from the IETF documents. For example, here is the TCP "
+"header. This header can be included as raw text"
+msgstr "我们经常需要加入代表数据包格式的图片。 这些数字通常来自IETF的文档。 例如，这是TCP标头。 此标头可以作为原始文本包含在内。"
+
+#: ../../packets.rst:27
+msgid ""
+"However, in practice we prefer to include the packet header in SVG format or"
+" other graphical formats. The TCP header is typically included as a figure."
+msgstr "但是，实践中我们更喜欢以SVG格式或其他图形格式包含数据包头。 TCP标头通常作为图形包含在内。"
+
+#: ../../packets.rst:34
+msgid "TCP header format"
+msgstr "TCP报头格式"
