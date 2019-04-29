@@ -13,4 +13,8 @@ cd ..
 # English version
 sphinx-build -n -WNT --keep-going -b html . /tmp
 # French version
-sphinx-build -D language='fr' -n -WNT --keep-going -b html . /tmp
+mkdir /tmp/fr
+sphinx-build -D language='fr' -n -WNT --keep-going -b html . /tmp/fr
+# Chinese version
+mkdir /tmp/zh
+sphinx-build -D language='zh' -n -WNT --keep-going -b html . /tmp/zh
