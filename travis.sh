@@ -11,10 +11,16 @@ cd pkt
 make images
 cd ..
 # English version
-sphinx-build -n -WNT --keep-going -b html . /tmp
+TMPDIR=$(mktemp -d)
+if [ ! -d $TMPDIR ]; then
+    >&2 "Could not create directory"
+    exit 1
+fi
+mkdir $TMPDIR/en
+sphinx-build -n -WNT --keep-going -b html . $TMPDIR/en
 # French version
-mkdir /tmp/fr
-sphinx-build -D language='fr' -n -WNT --keep-going -b html . /tmp/fr
+sphinx-build -D language='fr' -n -WNT --keep-going -b html . $TMPDIR/fr
 # Chinese version
-mkdir /tmp/zh
-sphinx-build -D language='zh' -n -WNT --keep-going -b html . /tmp/zh
+sphinx-build -D language='zh' -n -WNT --keep-going -b html . $TMPDIR/zh
+#trap "exit 1"           HUP INT PIPE QUIT TERM
+#trap 'rm -rf "$TMPDIR"' EXIT

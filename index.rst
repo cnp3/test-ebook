@@ -6,16 +6,31 @@
 Welcome to Test ebook's documentation!
 ======================================
 
+
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    intro.rst	     
    math.rst
-   packets.rst	     
+   packets.rst
 
+
+##########
+Appendices
+##########
+
+.. toctree::
+   :maxdepth: 4
+
+   glossary
+   bibliography
+   
+##################
 Indices and tables
-==================
+##################
 
 * :ref:`genindex`
 * :ref:`modindex`
