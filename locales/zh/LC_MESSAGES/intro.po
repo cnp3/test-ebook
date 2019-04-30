@@ -2,79 +2,126 @@
 # Copyright (C) 2019, Olivier Bonaventure
 # This file is distributed under the same license as the Test ebook package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-# 
+#
 # Translators:
 # Liangcheng Yu <liangcheng.yu46@gmail.com>, 2019
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Test ebook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-27 12:10+0000\n"
+"POT-Creation-Date: 2019-04-30 07:47+0000\n"
 "PO-Revision-Date: 2019-04-27 13:16+0000\n"
 "Last-Translator: Liangcheng Yu <liangcheng.yu46@gmail.com>, 2019\n"
+"Language: zh\n"
 "Language-Team: Chinese (https://www.transifex.com/cnp3/teams/98144/zh/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Language: zh\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../intro.rst:2
+#: ../../intro.rst:3
 msgid "Introduction"
 msgstr "简介"
 
-#: ../../intro.rst:4
+#: ../../intro.rst:5
 msgid ""
-"This is a simple test file that includes all the features of sphinx and its "
-"extensions that we plan to use for the third edition of the `Computer "
-"Networking: Principles, Protocols and Pratice <https://www.computer-"
+"This is a simple test file that includes all the features of sphinx and "
+"its extensions that we plan to use for the third edition of the `Computer"
+" Networking: Principles, Protocols and Pratice <https://www.computer-"
 "networking.info>`_ ebook. It is designed to test the ability to "
-"automatically build the ebook by using `travis <https://travis-ci.org>`_ and"
-" translate it by using `transifex <https://www.transifex.com/>`_."
+"automatically build the ebook by using `travis <https://travis-ci.org>`_ "
+"and translate it by using `transifex <https://www.transifex.com/>`_."
 msgstr ""
 "这是一个简单的测试文件，包括sphinx的所有特征及其扩展的功能，我们计划将这些特征和拓展用于第三版`计算机网络：原理，协议和实践<https://www"
 ".computer-networking.info>` _电子书。 它旨在测试使用`travis <https://travis-"
 "ci.org>`_自动构建电子书的能力，并使用`transifex <https://www.transifex.com/>`_进行翻译。。"
 
-#: ../../intro.rst:9
+#: ../../intro.rst:10
 msgid ""
 "Each of the files contains a different feature of `sphinx <http://www"
 ".sphinx-doc.org>`_."
 msgstr "每个文件包含了`sphinx <http://www.sphinx-doc.org>`_的不同特征。"
 
-#: ../../intro.rst:11
+#: ../../intro.rst:12
 msgid ""
-"This document is divided in sections. We apply the `Python’s Style Guide for"
-" documenting <https://docs.python.org/devguide/documenting.html#style-"
+"This document is divided in sections. We apply the `Python’s Style Guide "
+"for documenting <https://docs.python.org/devguide/documenting.html#style-"
 "guide>`_, i.e. :"
 msgstr ""
 "本文档分为几个部分。 "
-"我们应用`Python文档的样式指南<https://docs.python.org/devguide/documenting.html#style-"
-"guide>`_，即："
-
-#: ../../intro.rst:13
-msgid "# with overline, for parts"
-msgstr "带有上划线的#用于标注书籍的编，"
+"我们应用`Python文档的样式指南<https://docs.python.org/devguide/documenting.html"
+"#style-guide>`_，即："
 
 #: ../../intro.rst:14
-msgid "with overline, for chapters"
-msgstr "上划线用于标注章，"
+#, fuzzy
+msgid "``#`` with overline, for parts"
+msgstr "带有上划线的#用于标注书籍的编，"
 
 #: ../../intro.rst:15
-msgid "=, for sections"
-msgstr "=符号用于标注节，"
+#, fuzzy
+msgid "``*`` with overline, for chapters"
+msgstr "上划线用于标注章，"
 
 #: ../../intro.rst:16
-msgid ", for subsections"
-msgstr "，符号用于标注子节，"
+#, fuzzy
+msgid "``=``, for sections"
+msgstr "=符号用于标注节，"
 
 #: ../../intro.rst:17
-msgid "^, for subsubsections"
-msgstr "^符号用于标注二层子节"
+#, fuzzy
+msgid "``,`` for subsections"
+msgstr "，符号用于标注子节，"
 
 #: ../../intro.rst:18
-msgid "\", for paragraphs"
+#, fuzzy
+msgid "``^``, for subsubsections"
+msgstr "^符号用于标注二层子节"
+
+#: ../../intro.rst:19
+#, fuzzy
+msgid "``\"``, for paragraphs"
 msgstr "\"符号用于标注段落。"
+
+#: ../../intro.rst:22
+#, fuzzy
+msgid "A section"
+msgstr "=符号用于标注节，"
+
+#: ../../intro.rst:26
+#, fuzzy
+msgid "A subsection"
+msgstr "，符号用于标注子节，"
+
+#: ../../intro.rst:29
+#, fuzzy
+msgid "A subsubsection"
+msgstr "^符号用于标注二层子节"
+
+#: ../../intro.rst:36
+msgid "Citing references"
+msgstr ""
+
+#: ../../intro.rst:38
+msgid ""
+"References are included in the Bibliography which is an appendix to this "
+"document. The references must be cited, otherwise sphinx will complain. "
+"Here are the references included in the sample bibliography: "
+"[IEEE802.11]_ [AS2004]_ [B1989]_ and [Baran]_. Whenever possible, we "
+"provide a URL that points to the cited document. If a stable URL such as "
+"a DOI exist, we prefer to use it instead of a non-permanent URL that may "
+"be easier to access. If readers have difficulties to access some of the "
+"cited documents, they can consult specialised search engines such as "
+"`https://scholar.google.com <https://scholar.google.com>`_ Request for "
+"Comments (RFCs) should not be cited by using :rfc:`20` because sphinx "
+"does not automatically add them to the bibliography. They should be cited"
+" as [RFC20]_ and placed in the bibliography in alphabetical order."
+msgstr ""
+
+#: ../../intro.rst:47
+msgid ""
+"We should agree on a specific format to encode the references. Some "
+"different formarts were used in the second edition of the ebook."
+msgstr ""
+

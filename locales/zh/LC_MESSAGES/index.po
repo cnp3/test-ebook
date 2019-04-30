@@ -2,46 +2,50 @@
 # Copyright (C) 2019, Olivier Bonaventure
 # This file is distributed under the same license as the Test ebook package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-# 
+#
 # Translators:
 # Liangcheng Yu <liangcheng.yu46@gmail.com>, 2019
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Test ebook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-27 12:10+0000\n"
+"POT-Creation-Date: 2019-04-30 07:47+0000\n"
 "PO-Revision-Date: 2019-04-27 13:16+0000\n"
 "Last-Translator: Liangcheng Yu <liangcheng.yu46@gmail.com>, 2019\n"
+"Language: zh\n"
 "Language-Team: Chinese (https://www.transifex.com/cnp3/teams/98144/zh/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Language: zh\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../index.rst:7
 msgid "Welcome to Test ebook's documentation!"
 msgstr "欢迎来到测试的电子书文档！"
 
-#: ../../index.rst:9
+#: ../../index.rst:12
 msgid "Contents:"
 msgstr "目录"
 
-#: ../../index.rst:18
+#: ../../index.rst:23
+msgid "Appendices"
+msgstr ""
+
+#: ../../index.rst:33
 msgid "Indices and tables"
 msgstr "列表和表格"
 
-#: ../../index.rst:20
+#: ../../index.rst:35
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
-#: ../../index.rst:21
+#: ../../index.rst:36
 msgid ":ref:`modindex`"
 msgstr ":ref:`modindex`"
 
-#: ../../index.rst:22
+#: ../../index.rst:37
 msgid ":ref:`search`"
 msgstr ":ref:`search`"
+

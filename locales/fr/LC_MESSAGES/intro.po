@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Test ebook \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-27 12:10+0000\n"
+"POT-Creation-Date: 2019-04-30 07:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../intro.rst:2
+#: ../../intro.rst:3
 msgid "Introduction"
 msgstr ""
 
-#: ../../intro.rst:4
+#: ../../intro.rst:5
 msgid ""
 "This is a simple test file that includes all the features of sphinx and "
 "its extensions that we plan to use for the third edition of the `Computer"
@@ -30,66 +30,104 @@ msgid ""
 "automatically build the ebook by using `travis <https://travis-ci.org>`_ "
 "and translate it by using `transifex <https://www.transifex.com/>`_."
 msgstr ""
-"Ceci est un simple fichier de test"
-" qui comprend toutes les fonctionnalités"
-" de sphinx et  ses extensions que "
-"nous comptons utiliser pour la troisième"
-" édition de l'ebook `Computer Networking:"
-" Principles, Protocols and Pratice "
-"<https://www.computer-networking.info>`_ . Il "
-"est conçu pour tester la possibilité "
-"de compiler automatiquement l'ebook en "
-"utilisant `travis <https://travis-ci.org>`_ et"
-" aussi en le traduisant en utilisant"
-" `transifex <https://www.transifex.com/>`_."
+"Ceci est un simple fichier de test qui comprend toutes les "
+"fonctionnalités de sphinx et  ses extensions que nous comptons utiliser "
+"pour la troisième édition de l'ebook `Computer Networking: Principles, "
+"Protocols and Pratice <https://www.computer-networking.info>`_ . Il est "
+"conçu pour tester la possibilité de compiler automatiquement l'ebook en "
+"utilisant `travis <https://travis-ci.org>`_ et aussi en le traduisant en "
+"utilisant `transifex <https://www.transifex.com/>`_."
 
-#: ../../intro.rst:9
+#: ../../intro.rst:10
 msgid ""
 "Each of the files contains a different feature of `sphinx <http://www"
 ".sphinx-doc.org>`_."
 msgstr ""
-"Chaque fichier contient une fonctionnalité "
-"différente de `sphinx <http://www.sphinx-"
-"doc.org>`_."
+"Chaque fichier contient une fonctionnalité différente de `sphinx "
+"<http://www.sphinx-doc.org>`_."
 
-#: ../../intro.rst:11
+#: ../../intro.rst:12
 msgid ""
 "This document is divided in sections. We apply the `Python’s Style Guide "
 "for documenting <https://docs.python.org/devguide/documenting.html#style-"
 "guide>`_, i.e. :"
-msgstr "Ce document est divisé en sections. Nous appliquons les recommendations du document `Python’s Style Guide "
-"for documenting <https://docs.python.org/devguide/documenting.html#style-"
-"guide>`_, c'est-à-dire:"
-
-#: ../../intro.rst:13
-msgid "# with overline, for parts"
-msgstr "# au-dessus et en dessous pour les parties"
+msgstr ""
+"Ce document est divisé en sections. Nous appliquons les recommendations "
+"du document `Python’s Style Guide for documenting "
+"<https://docs.python.org/devguide/documenting.html#style-guide>`_, "
+"c'est-à-dire:"
 
 #: ../../intro.rst:14
-msgid "with overline, for chapters"
-msgstr "au-dessus et en dessous pour les châpitres"
+#, fuzzy
+msgid "``#`` with overline, for parts"
+msgstr "# au-dessus et en dessous pour les parties"
 
 #: ../../intro.rst:15
-msgid "=, for sections"
-msgstr "=, pour les sections"
+#, fuzzy
+msgid "``*`` with overline, for chapters"
+msgstr "au-dessus et en dessous pour les châpitres"
 
 #: ../../intro.rst:16
-msgid ", for subsections"
-msgstr ", pour les sous-sections"
+#, fuzzy
+msgid "``=``, for sections"
+msgstr "=, pour les sections"
 
 #: ../../intro.rst:17
-msgid "^, for subsubsections"
-msgstr "^, pour les sous-sous-sections"
+#, fuzzy
+msgid "``,`` for subsections"
+msgstr ", pour les sous-sections"
 
 #: ../../intro.rst:18
-msgid "\", for paragraphs"
-msgstr "\', pour les paragraphes"
+#, fuzzy
+msgid "``^``, for subsubsections"
+msgstr "^, pour les sous-sous-sections"
+
+#: ../../intro.rst:19
+#, fuzzy
+msgid "``\"``, for paragraphs"
+msgstr "\\', pour les paragraphes"
+
+#: ../../intro.rst:22
+#, fuzzy
+msgid "A section"
+msgstr "=, pour les sections"
+
+#: ../../intro.rst:26
+#, fuzzy
+msgid "A subsection"
+msgstr ", pour les sous-sections"
+
+#: ../../intro.rst:29
+#, fuzzy
+msgid "A subsubsection"
+msgstr "^, pour les sous-sous-sections"
+
+#: ../../intro.rst:36
+msgid "Citing references"
+msgstr ""
+
+#: ../../intro.rst:38
+msgid ""
+"References are included in the Bibliography which is an appendix to this "
+"document. The references must be cited, otherwise sphinx will complain. "
+"Here are the references included in the sample bibliography: "
+"[IEEE802.11]_ [AS2004]_ [B1989]_ and [Baran]_. Whenever possible, we "
+"provide a URL that points to the cited document. If a stable URL such as "
+"a DOI exist, we prefer to use it instead of a non-permanent URL that may "
+"be easier to access. If readers have difficulties to access some of the "
+"cited documents, they can consult specialised search engines such as "
+"`https://scholar.google.com <https://scholar.google.com>`_ Request for "
+"Comments (RFCs) should not be cited by using :rfc:`20` because sphinx "
+"does not automatically add them to the bibliography. They should be cited"
+" as [RFC20]_ and placed in the bibliography in alphabetical order."
+msgstr ""
+
+#: ../../intro.rst:47
+msgid ""
+"We should agree on a specific format to encode the references. Some "
+"different formarts were used in the second edition of the ebook."
+msgstr ""
 
 #~ msgid ""
-
-#~ msgstr ""
-
-#~ msgid ""
-
 #~ msgstr ""
 
